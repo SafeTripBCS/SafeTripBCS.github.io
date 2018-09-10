@@ -1,435 +1,796 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/icon.png" type="image/png">
-        <title>Safe Trip</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body data-spy="scroll" data-target="#mainNav" data-offset="70">
 
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu" id="mainNav">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="#home">Pagina principal</a></li>
-								<li class="nav-item"><a class="nav-link" href="#feature">Funcionalidades</a></li>
-								<li class="nav-item"><a class="nav-link" href="#price">Cuentas</a>
-								<li class="nav-item"><a class="nav-link" href="#screen">Screenshots</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-            	</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Safe Trip - App Landing Page</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">St.</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshots</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Plans</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="#">Download App</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="#">Download App</a>
+                    </div>
+                </div>
             </div>
-        </header>
-        <!--================Header Menu Area =================-->
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area" id="home">
-            <div class="banner_inner">
-				<div class="container">
-					<div class="row banner_content">
-						<div class="col-lg-9">
-							<h2>La nueva forma de viajar<br>largas ditancias</h2>
-							<p>Safe Trip es la app lider de viajes de ciudad a ciudad que ofrece una toda una nueva experiencia al viajar, de forma segura y comoda, por todo el estado.</p>
-							<a class="banner_btn" href="#feature">Explorar Mas</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="banner_map_img">
-								<img class="img-fluid" src="img/banner/right-mobile.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Safe Trip</h2>
+                        <h3>St</h3>
+                        <p>Everything You Need. To Start Traveling Across Cities</p>
+                    </div>
+                    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+                        <img src="img/bg-img/welcome-img.png" alt=""></div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="#" method="post" class="form-inline">
+                            <input type="email" class="form-control email" placeholder="email@email.com">
+                            <input type="submit" class="submit" value="Get Started">
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
+        </div>
+        <!-- Welcome thumb -->
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
 
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120" id="feature">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Funcionalidades</h2>
-        			<p>Safe Trip es una aplicacion que busca brindar una nueva experiencia y forma de viajar a larga distancia donde usuarios pueden confiar en su conductor o su viajero</p>
-        		</div>
-        		<div class="feature_inner row">
-        			<div class="col-lg-3 col-md-6">
-        				<div class="feature_item">
-        					<img src="img/icon/t-icon.png" alt="">
-        					<h4>Viajes cuando los necesites</h4>
-        					<p>Busca viajes cuando lo necesites y desde donde los necesites, ya sea que cuentes con conexion a internet o no, podras solicitar tu viaje.</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-3 col-md-6">
-        				<div class="feature_item">
-        					<img src="img/icon/p-icon.png" alt="">
-        					<h4>Precios bajos</h4>
-        					<p>Encuentra y ofrece viajes a bajos precios, comparte la experiencia de viajar y los gastos, todo mientras haces nuevo amigos.</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-3 col-md-6">
-        				<div class="feature_item">
-        					<img src="img/icon/s-icon.png" alt="">
-        					<h4>Seguridad ante todo</h4>
-        					<p>Todos nuestros usuarios son verificados, tanto conductores como viajeros pasas por nuestros sistemas, ademas de, toda la comunicacion entre usuarios dentro de la app, es anonima y encriptada.</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-3 col-md-6">
-        				<div class="feature_item">
-        					<img src="img/icon/r-icon.png" alt="">
-        					<h4>Recompensas</h4>
-        					<p>Gana viajes gratis, ropa, accesorias, pizza y mucho mas, con nuestro sistema de recompensas podras divertirte y ganar al mismo tiempo.</p>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Feature Area =================-->
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>Why Is It Special</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
 
-        <!--================Interior Area =================-->
-        <section class="interior_area">
-        	<div class="container">
-        		<div class="interior_inner row">
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/interior-1.png" alt="">
-        			</div>
-        			<div class="col-lg-5 offset-lg-1">
-        				<div class="interior_text">
-        					<h4>Viajar es toda una experiencia y debe ser una buena </h4>
-        					<p>Ofrecemos una experiencia multiplataforma y segura,con precios mas bajos que cualquier otro servicio.</p>
-        					<a class="main_btn" href="http://gifdanceparty.giphy.com/?o=kavjoopy"
-                  target="_blank">
-                    Descargar</a>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Interior Area =================-->
-
-        <!--================Interior Area =================-->
-        <section class="interior_area interior_two">
-        	<div class="container">
-        		<div class="interior_inner row">
-        			<div class="col-lg-5 offset-lg-1">
-        				<div class="interior_text">
-        					<h4>Para todo tipo de viajero</h4>
-        					<p>Ya sea que viajes regularmente, por hobbie, por una emergencia o por aventurarte en un nuevo viaje, safe trip esta ahi para ti.</p>
-        					<a class="main_btn" href="https://www.youtube.com/watch?v=5dbG4wqN0rQ"
-                  target="_blank">
-                    Descargar</a>
-        				</div>
-        			</div>
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/interior-2.png" alt="">
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Interior Area =================-->
-
-        <!--================Interior Area =================-->
-        <section class="interior_area">
-        	<div class="container">
-        		<div class="interior_inner row">
-        			<div class="col-lg-6">
-        				<img class="img-fluid" src="img/interior-3.png" alt="">
-        			</div>
-        			<div class="col-lg-5 offset-lg-1">
-        				<div class="interior_text">
-        					<h4>Pensado para Estudiantes </h4>
-        					<p>A veces el volver a casa cada semana es dificil, pero safe lo vuelve facil y seguro, ofrecemos funcionalidades especiales para dar una experiencia aun mayor a nuestros usuarios del sector estudiantil.</p>
-        					<a class="main_btn" href="http://gifdanceparty.giphy.com/?o=kavjoopy"
-                  target="_blank">
-                    Descargar</a>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Interior Area =================-->
-
-        <!--================Accoun Type Area =================-->
-        <section class="price_area p_120" id="price">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Tipo de cuentas</h2>
-        			<p>Viajar lo hacemos todos, grandes, pequeños viejos o jovenes, y es una experiencia diferente para cada persona, asi que contamos con diferentes tipos de cuentas, las cuales ofrecen una experiencia personalidad para cada tipo de viajero.</p>
-        		</div>
-        		<div class="price_item_inner row">
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Estandar</h3>
-        							<p>Para el viajero casual</p>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">Sistema de recompensas</a></li>
-        							<li><a href="#">Beneficio</a></li>
-        							<li><a href="#">Beneficio</a></li>
-        							<li><a href="#">Beneficio</a></li>
-        							<li><a href="#">Beneficio</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Registrarme</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Estudiantes</h3>
-        							<p>Para foraneos o estudiantes viajeros</p>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">Descuentos</a></li>
-        							<li><a href="#">Recompensas por logros estudiantiles</a></li>
-        							<li><a href="#">Preferencia en viajes por temporada</a></li>
-        							<li><a href="#">Otro beneficio</a></li>
-        							<li><a href="#">Otro beneficio</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Registrarme</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Organizaciones</h3>
-        							<p>Para empresarios y trabajadores</p>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">Un benificio bien godinez</a></li>
-        							<li><a href="#">Otro benificio godinez</a></li>
-        							<li><a href="#">Otro benificio/a></li>
-        							<li><a href="#">Otro benificio</a></li>
-        							<li><a href="#">Otro benificio</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Registrarme</a>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Price Area =================-->
-
-        <!--================Feature Area =================-->
-        <section class="screenshot_area p_120" id="screen">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Capturas de pantalla</h2>
-        			<p>Con un diseño intuitivo y experiencia de usuario de la mejor calidad, safe trip presenta una nueva forma de viajar y experimentar los viajes de ciudad a ciudad.</p>
-        		</div>
-        		<div class="screenshot_inner owl-carousel">
-        			<div class="item">
-        				<img src="img/feature/feature-1.png" alt="">
-        			</div>
-        			<div class="item">
-        				<img src="img/feature/feature-2.png" alt="">
-        			</div>
-        			<div class="item">
-        				<img src="img/feature/feature-3.png" alt="">
-        			</div>
-        			<div class="item">
-        				<img src="img/feature/feature-4.png" alt="">
-        			</div>
-              <div class="item">
-        				<img src="img/feature/feature-5.png" alt="">
-        			</div>
-              <div class="item">
-        				<img src="img/feature/feature-6.png" alt="">
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Feature Area =================-->
-
-        <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Testimonios</h2>
-        			<p>Lo que nuestros viajeros dicen acerca de safe Trip y la experiencia de viajar con nosotros, no lo decimos nosotros, lo afirman ellos.</p>
-        		</div>
-        		<div class="testi_slider owl-carousel">
-        			<div class="item">
-        				<div class="testi_item">
-							<div class="media">
-								<div class="d-flex">
-									<img src="img/testimonials/testi-1.png" alt="">
-								</div>
-								<div class="media-body">
-									<p>Encontrar un viaje a buen precio y un conductor confiable con el cual compartir el viaje, siempre fue un dolor de cabeza pero con Safe Trip todo cambio.</p>
-									<h4>Ilse Luja</h4>
-									<h5>Estudiante UABCS</h5>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        			<div class="item">
-        				<div class="testi_item">
-							<div class="media">
-								<div class="d-flex">
-									<img src="img/testimonials/testi-2.png" alt="">
-								</div>
-								<div class="media-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas, ipsum et semper iaculis, nisl erat pretium risus, et dapibus nulla dolor a turpis. </p>
-									<h4>Somebudys Name</h4>
-									<h5>CEO of [Company]</h5>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Testimonials Area =================-->
-
-        <!--================Download App Area =================-->
-        <section class="download_app_area p_120">
-        	<div class="container">
-        		<div class="app_inner">
-        			<h2>Descarga la App Hoy Mismo!</h2>
-        			<p>Deja de quebrarte la cabeza buscando mil y una formas de viajar de ciudad a ciudad, descarga la app y empieza a tener lo que mereces, un buen y Safe Trip.</p>
-        			<div class="app_btn_area">
-        				<div class="app_btn">
-        					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-apple" aria-hidden="true"></i>
-								</div>
-								<div class="media-body">
-									<a href="#"><h4>Disponible</h4></a>
-									<p>En la Play Store</p>
-								</div>
-							</div>
-        				</div>
-        				<div class="app_btn">
-        					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-android" aria-hidden="true"></i>
-								</div>
-								<div class="media-body">
-									<a href="#"><h4>Disponible</h4></a>
-									<p>En la App Store</p>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Download App Area =================-->
-
-        <!--================ start footer Area  =================-->
-        <footer class="footer-area p_120">
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-mobile" aria-hidden="true"></i>
+                        </div>
+                        <h4>Easy to use</h4>
+                        <p>Find a trip near you, any time, to anywhere in just a few taps.</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-shield" aria-hidden="true"></i>
+                        </div>
+                        <h4>Secure</h4>
+                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-face-smile" aria-hidden="true"></i>
+                        </div>
+                        <h4>Built for you</h4>
+                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-6 col-sm-6">
-                        <div class="single-footer-widget news_widgets">
-                            <h6 class="footer_title">Newsletter</h6>
-                            <p>You can trust us. we only send promo offers, not a single spam.</p>
-                            <div id="mc_embed_signup">
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                                    <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn">Get Started</button>
-                                    </div>
-                                    <div class="mt-10 info"></div>
-                                </form>
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>Our Best Propositions for You!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <div class="app-download-area">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Google Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-android"></i>
+                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                    </a>
+                                </div>
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                    <!-- Apple Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-apple"></i>
+                                        <p class="mb-0"><span>available on</span> Apple Store</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-1">
-                        <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">Instagram Feed</h6>
-                            <ul class="list instafeed d-flex flex-wrap">
-                                <li><img src="img/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-08.jpg" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Manudmz</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    <div class="col-lg-4 col-md-4 footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>Awesome Features</h2>
+                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
-        </footer>
-		<!--================ End footer Area  =================-->
 
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-heart" aria-hidden="true"></i>
+                        <h5>Awesome Experience</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-id-badge" aria-hidden="true"></i>
+                        <h5>User verification system</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-notepad" aria-hidden="true"></i>
+                        <h5>Schedule trip's</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-money" aria-hidden="true"></i>
+                        <h5>Save & Win money</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-gift" aria-hidden="true"></i>
+                        <h5>Rewards system</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-headphone" aria-hidden="true"></i>
+                        <h5>24/7 Online Support</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="vertical-line" style="height: 95px;" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
 
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">500</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-arrow-down-a"></i>
+                            <p>APP <br> DOWNLOADS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">320</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-happy-outline"></i>
+                            <p>Happy <br> Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">200</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-person"></i>
+                            <p>ACTIVE <br>ACCOUNTS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">380</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-ios-star-outline"></i>
+                            <p>TOTAL <br>APP RATES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
 
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>App Screenshots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-1.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-2.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-4.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-5.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
 
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text  -->
+                    <div class="section-heading text-center">
+                        <h2>User Plans</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope-min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Starter Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Benefit</p>
+                            <p>Benefit</p>
+                            <p>Benefit</p>
+                            <p>Benefit</p>
+                            <p>Benefit</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Traveler</h5>
+                            <div class="ca-price d-flex justify-content-center">
+
+                            </div>
+                        </div>
+                        <div class="package-description">
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan active text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Student</h5>
+                            <div class="ca-price d-flex justify-content-center">
+
+                            </div>
+                        </div>
+                        <div class="package-description">
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Organization</h5>
+                            <div class="ca-price d-flex justify-content-center">
+
+                            </div>
+                        </div>
+                        <div class="package-description">
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                          <p>Benefit</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plane Area End ***** -->
+
+    <!-- ***** Client Feedback Area Start ***** -->
+    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Ilse Luja</h5>
+                                <p>CEO of Safe Trip</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Jennifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Client Thumbnail Area -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-3.png" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpng" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Client Feedback Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="our-monthly-membership section_padding_50 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="membership-description">
+                        <h2>Join our Monthly Membership</h2>
+                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Our Team</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Jackson Nash</h4>
+                            <p>Tax Advice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-2.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Alex Manning</h4>
+                            <p>CEO-Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Ollie Schneider</h4>
+                            <p>Business Planner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Roger West</h4>
+                            <p>Financer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
+
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Get in touch with us!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                    <div class="footer-text">
+                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                    </div>
+                    <div class="address-text">
+                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Ca.</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div>
+    </footer>
+    <!-- ***** Footer Area Start ***** -->
+
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
+
 </html>
